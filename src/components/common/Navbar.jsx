@@ -37,7 +37,7 @@ export default function Navbar() {
     const location = useLocation();
 
   return (
-    <div className='border-b-[1px] border-richblack-700 sticky top-0 left-0 z-[999] bg-richblack-900'>
+    <div className='border-b-[1px] border-richblack-700 sticky top-0 left-0 z-[500] bg-richblack-900'>
         <div className='flex gap-8 py-3 md:px-[120px] w-11/12 mx-auto justify-between'>
             <Link className='flex items-center' to={"/"}>
                 <div className='text-white flex items-center text-2xl'>

@@ -25,6 +25,7 @@ exports.createCourse = async (req, res) => {
         message: "All Fields are required",
       });
     }
+    
 
     // const instructorDetails = await User.findById(req.user.id);
 

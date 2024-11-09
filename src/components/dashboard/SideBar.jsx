@@ -26,7 +26,7 @@ export default function SideBar() {
 
   return (
     <>
-      <div className='lg:flex flex-col min-w-[250px] bg-richblack-800 text-richblack-300 py-8 h-[calc(100vh-3.9rem)] sticky top-0 hidden'>
+      <div className='lg:flex flex-col min-w-[250px] bg-richblack-800 text-richblack-300 py-8 h-[calc(100vh-3.9rem)] sticky top-0 hidden z-[100]'>
 
         <div className='flex flex-col'>
           {
@@ -63,7 +63,7 @@ export default function SideBar() {
 
 
         {modal && <YesNoModal data={modal} />}
-        {modal && <div className="w-full h-full backdrop-blur-sm fixed top-0 z-[5]"></div>}
+        {modal && <div className="w-full h-full bg-black opacity-60 fixed top-0 z-[100]"></div>}
       </div>
     </>
   )

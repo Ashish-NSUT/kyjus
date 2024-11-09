@@ -5,7 +5,7 @@ export default function YesNoModal(props) {
     const {text1, text2,btntext1,btntext2, btnHandler1,btnHandler2} = props.data;
 
   return (
-    <div className='z-[999] p-8 py-6 fixed top-[35%] left-[15%] md:left-[40%] bg-richblack-800 border-[1px] border-richblack-500 flex flex-col gap-8 rounded-md min-w-[300px] w-[22%] backdrop-blur-xl'>
+    <div className='z-[999] p-8 py-6 fixed top-[35%] left-[15%] md:left-[40%] bg-richblack-800 border-[1px] border-richblack-500 flex flex-col gap-8 rounded-md min-w-[300px] w-[22%]'>
 
         <div className="text-start">
             <h2 className='text-2xl text-richblack-5'>{text1}</h2>

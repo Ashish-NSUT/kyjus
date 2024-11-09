@@ -23,7 +23,7 @@ import { ACCOUNT_TYPE } from "../utils/constants";
   {
     id: 4,
     name: "Add Course",
-    path: "/dashboard/add-course",
+    path: "/dashboard/add-courses",
     type: ACCOUNT_TYPE.INSTRUCTOR,
     icon: "VscAdd",
   },

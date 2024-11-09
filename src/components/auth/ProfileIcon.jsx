@@ -67,7 +67,7 @@ export default function ProfileIcon({ image }) {
 
       {modal && <YesNoModal data={modal} />}
     </button>
-      {modal && <div className="w-[100vw] h-full bg-black opacity-70 fixed top-0 left-0 z-[50]"></div>}
+      {modal && <div className="w-[100vw] h-full bg-black opacity-60 fixed top-0 left-0 z-[50]"></div>}
    </>
   )
 }

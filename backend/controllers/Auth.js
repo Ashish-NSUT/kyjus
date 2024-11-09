@@ -35,11 +35,12 @@ exports.sendOTP = async (req, res) => {
 		console.log("Result is Generate OTP Func");
 		console.log("OTP", OTP);
 		console.log("Result", result);
-		while (result) {
-			OTP = OTPgenerator.generate(6, {
-				upperCaseAlphabets: false,
-			});
-		}
+		// while (result) {
+		// 	OTP = OTPgenerator.generate(6, {
+		// 		upperCaseAlphabets: false,
+		// 	});
+		// }
+
 		const otpPayload = { email:email, otp:OTP };
 
 		const otpBody = await Otp.create(otpPayload);
@@ -85,7 +86,6 @@ exports.signup = async (req, res) => {
         //fetch OTP
         const OTP = await Otp.find({email}).sort({createdAt:-1}).limit(1);
         console.log(OTP.length);
-        // console.log(OTP[0].otp);
 
         // validate OTP
 

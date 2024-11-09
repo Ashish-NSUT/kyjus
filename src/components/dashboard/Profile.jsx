@@ -58,9 +58,9 @@ export default function Profile() {
         </div>
 
 
-        <div className='grid grid-cols-2 w-full place-content-center gap-6 bg-richblack-800 border-[1px] border-richblack-700 p-6 rounded-lg'>
+        <div className='grid grid-cols-1 md:grid-cols-2 w-full place-content-center gap-6 bg-richblack-800 border-[1px] border-richblack-700 p-6 rounded-lg'>
 
-          <div className='flex justify-between w-full items-center col-span-2'>
+          <div className='flex justify-between w-full items-center md:col-span-2'>
             <h2 className='text-lg font-semibold'>Personal Details</h2>
             <Link to='/dashboard/setting'>
               <EditBtn />

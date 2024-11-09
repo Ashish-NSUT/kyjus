@@ -23,14 +23,6 @@
     "tailwindcss": "^3.2.7",
     "web-vitals": "^2.1.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git"
-  },
-  "author": "Pranay Gupta",
-  "bugs": {
-    "url": "https://github.com/thepranaygupta/react-tailwind-css-starter-pack/issues"
-  },
   "scripts": {
     "start:frontend": "set PORT=3000 && react-scripts start",
     "build": "react-scripts build",
